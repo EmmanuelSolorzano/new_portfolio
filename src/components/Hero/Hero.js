@@ -14,12 +14,13 @@ function Hero() {
                         <img src={emmanuel} alt='me'/>
                     </div>
                     <div className='text-container'>
-                        <p>
-                        Hi! 👋 I'm a Computer Science Student 👨🏾‍💻 at Tecnológico de Monterrey in Zapopan, Jalisco 🇲🇽. 
-                        Passionate about full-stack development and artificial intelligence 🧠 
-                        who is always looking for new ways to improve myself 💪🏽 by learning and taking courses to stay up
-                        to date on the latest technologies 💻.
-                        </p>
+                    <p>
+                        Hi there! 👋 I'm a Software Engineer 👨🏾‍💻 who graduated from Tecnológico de Monterrey in Zapopan, Jalisco 🇲🇽. 
+                        With a deep passion for full-stack development and artificial intelligence 🧠, I am dedicated to pushing the boundaries 
+                        of technology and innovation. My enthusiasm for continuous learning drives me to take courses regularly, ensuring that I stay 
+                        at the forefront of the latest technological advancements 💻. I am always seeking new challenges and opportunities to enhance 
+                        my skills and knowledge, striving to contribute to impactful projects and the broader tech community.
+                    </p>
                     </div>
                 </div>
             </div>

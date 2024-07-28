@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './Carousel.css';
 import API from '../ENV/API';
+import yourVids from './img/yourvids.png'
+import rem from './img/rem.png'
+import factura from './img/factura.webp'
 
 function Carousel() {
   const [projects, setProjects] = useState([]);
@@ -8,13 +11,37 @@ function Carousel() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(API);
+        /*const response = await fetch(API);
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
 
         const data = await response.json();
+        */
+        const data = [
+          {
+            title: 'YourVids Web Application',
+            description: 'YourVids is a web application built using Django 3 and React, designed to provide a seamless video-sharing experience similar to YouTube. It encompasses all essential functionalities, including video uploads, streaming, user authentication, commenting, liking, and subscribing to channels.',
+            image: yourVids,
+            url: 'https://github.com/EmmanuelSolorzano/YourVids-MLH',
+            youtubeResourceID: ''
+          },
+          {
+            title: 'Rem Sport Supplements Website',
+            description: 'REM Sport Supplements is a dynamic website developed using React and Django 3, dedicated to providing top-quality sports nutrition products. The platform features a comprehensive collection of supplements, complete with detailed product information and user reviews.',
+            image: rem,
+            url: 'https://github.com/EmmanuelSolorzano/RemWebsite',
+            youtubeResourceID: ''
+          },
+          {
+            title: 'Billing system',
+            description: 'Our Advanced Billing System is a sophisticated solution designed to streamline the generation and management of company invoices. Built with robust features, this system allows businesses to create, track, and manage invoices with ease and precision.',
+            image: factura,
+            url: 'https://github.com/EmmanuelSolorzano/Facturas',
+            youtubeResourceID: ''
+          }
+        ];
         setProjects(data);
         console.log(data)
       } catch (error) {
