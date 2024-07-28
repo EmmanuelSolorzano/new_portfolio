@@ -22,14 +22,14 @@ function Carousel() {
         const data = [
           {
             title: 'YourVids Web Application',
-            description: 'YourVids is a web application built using Django 3 and React, designed to provide a seamless video-sharing experience similar to YouTube. It encompasses all essential functionalities, including video uploads, streaming, user authentication, commenting, liking, and subscribing to channels.',
+            description: 'Built using Django 3 and React, designed to provide a seamless video-sharing experience similar to YouTube. It encompasses all essential functionalities, including video uploads, streaming, user authentication, commenting, liking, and subscribing to channels.',
             image: yourVids,
             url: 'https://github.com/EmmanuelSolorzano/YourVids-MLH',
             youtubeResourceID: ''
           },
           {
-            title: 'Rem Sport Supplements Website',
-            description: 'REM Sport Supplements is a dynamic website developed using React and Django 3, dedicated to providing top-quality sports nutrition products. The platform features a comprehensive collection of supplements, complete with detailed product information and user reviews.',
+            title: 'Rem Website',
+            description: 'Dynamic website developed using React and Django 3, dedicated to providing top-quality sports nutrition products. The platform features a comprehensive collection of supplements, complete with detailed product information and user reviews.',
             image: rem,
             url: 'https://github.com/EmmanuelSolorzano/RemWebsite',
             youtubeResourceID: ''
